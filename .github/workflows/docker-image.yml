@@ -33,7 +33,7 @@ jobs:
     - name: Build and tag the server Docker image
       run: |
         cd server
-        docker build . --file Dockerfile --tag riyazmenttech/todo-server:latest
+        docker build . --file Dockerfile --tag riyazmenttech/server:latest
         docker tag riyazmenttech/server:latest riyazmenttech/server:${{ env.TIMESTAMP }}
     - name: Push the client Docker image
       run: |
