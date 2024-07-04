@@ -35,7 +35,7 @@ const Home = () => {
           className="bg-blue-800 hover:bg-sky-600 px-4 py-1 rounded-lg"
           onClick={() => setShowType("table")}
         >
-          Table View
+          Table view
         </button>
         <button
           className="bg-blue-800 hover:bg-sky-600 px-4 py-1 rounded-lg"
