@@ -35,13 +35,13 @@ const Home = () => {
           className="bg-blue-800 hover:bg-sky-600 px-4 py-1 rounded-lg"
           onClick={() => setShowType("table")}
         >
-          Table
+          Table View
         </button>
         <button
           className="bg-blue-800 hover:bg-sky-600 px-4 py-1 rounded-lg"
           onClick={() => setShowType("card")}
         >
-          Card
+          Card View
         </button>
       </div>
       <div className="flex justify-between items-center">
